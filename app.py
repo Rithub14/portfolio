@@ -75,8 +75,8 @@ st.write("---")
 
 # Education entries with university URLs and dates
 education_entries = [
-    {"degree": "MSc Artificial Intelligence", "university": "[Brandenburg University of Technology](https://www.b-tu.de/)", "date": "2023-2025 (Expected)"},
-    {"degree": "BSc Computer Science", "university": "[COMSATS University Islamabad](https://lahore.comsats.edu.pk/default.aspx)", "date": "2019-2023"}
+    {"degree": "MSc Artificial Intelligence", "university": "[**Brandenburg University of Technology**](https://www.b-tu.de/)", "date": "2023-2025 (Expected)", "location":"Cottbus, Germany"},
+    {"degree": "BSc Computer Science", "university": "[**COMSATS University Islamabad**](https://lahore.comsats.edu.pk/default.aspx)", "date": "2019-2023", "location":"Lahore, Pakistan"}
 ]
 
 for entry in education_entries:
@@ -86,6 +86,8 @@ for entry in education_entries:
         st.write(f"{entry['date']}")
     with col2:
         st.markdown(entry['university'])
+        st.markdown(entry['location'])
+
 
 # --- SKILLS ---
 st.write('\n')
@@ -96,9 +98,9 @@ st.write("---")
 
 skills = {
     "Programming Languages": "Python 🐍, SQL 🗃️",
-    "Libraries/Frameworks": "Numpy 🧮, Pandas 🐼, Matplotlib 📊, Scikit-learn 🤖, XGBoost 🚀, OpenCV 🖼️, Tensorflow 🧠, PyTorch 🔥, LangChain 🔗, HuggingFace 🤗, Streamlit 🌐",
+    "Libraries/Frameworks": "Numpy 🧮, Pandas 🐼, Matplotlib 📊, Scikit-learn 🤖, OpenCV 🖼️, PyTorch 🔥, LangChain 🔗, HuggingFace 🤗, Streamlit 🌐",
     "Tools": "Git 🛠️, Docker 🐳, VS Code 📝, Jupyter Notebook 📒, Google Colab 📚",
-    "Cloud Platform": "AWS (EC2, SageMaker, Bedrock) ☁️",
+    "Cloud Platform": "AWS (SageMaker, Bedrock) ☁️",
     "Soft Skills": "Time management 🕰️, Problem-solving 📈, Critical thinking 🧠, Collaboration 🤝"
 }
 
