@@ -68,8 +68,6 @@ for i, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
 
 
 # --- EDUCATION ---
-st.write('\n')
-st.write('\n')
 st.subheader("Education 🎓")
 st.write("---")
 
@@ -92,7 +90,6 @@ for entry in education_entries:
 # --- SKILLS ---
 st.write('\n')
 st.write('\n')
-st.write('\n')
 st.subheader("Skills 👩‍💻")
 st.write("---")
 
@@ -113,7 +110,6 @@ for skill_category, skill_list in skills.items():
 
 
 # --- EXPERIENCE ---
-st.write('\n')
 st.write('\n')
 st.write('\n')
 st.subheader("Experience 🚧")
@@ -155,7 +151,6 @@ PROJECTS = {
 
 st.write('\n')
 st.write('\n')
-st.write('\n')
 st.subheader("Projects 🏆")
 st.write("---")
 
@@ -181,7 +176,6 @@ def get_binary_file_downloader_html(bin_file, file_label='File'):
     href = f'<a href="data:application/octet-stream;base64,{bin_str}" download="{file_label}">Download</a>'
     return href
 
-st.write('\n')
 st.write('\n')
 st.write('\n')
 st.subheader("Certifications 🥇")
