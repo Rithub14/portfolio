@@ -8,6 +8,16 @@
     display: block;
 }
 
+.full-name {
+    white-space: nowrap;
+    font-size: 2.5em;
+}
+
+.description {
+    white-space: nowrap;
+    font-size: 1.7em;
+}
+
 a {
     text-decoration: none;
     color: white !important;

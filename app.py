@@ -39,22 +39,23 @@ profile_pic = Image.open(profile_pic)
 
 
 # --- HERO SECTION ---
-col1, col2 = st.columns(2, gap="small")
+col1, col2, col3 = st.columns(3, gap="large")
 with col1:
-    st.image(profile_pic, width=230)
-
-with col2:
-    st.title(NAME)
-    st.subheader(DESCRIPTION)
+    st.markdown("<h1 class='full-name'>Rizwan Aslam</h1>", unsafe_allow_html=True)
+    st.markdown("<h4 class='description'>Machine Learning Engineer</h4>", unsafe_allow_html=True)
     st.write("\n")
     st.write("\n")
     st.download_button(
-        label=" 📄 Download Resume",
+        label="Download Resume 📄",
         data=PDFbyte,
         file_name=resume_file.name,
         mime="application/octet-stream",
     )
 
+# col2 is empty
+
+with col3:
+    st.image(profile_pic, width=200)
 
 
 # --- SOCIAL LINKS ---
@@ -67,7 +68,6 @@ for i, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
 
 
 # --- EDUCATION ---
-st.write('\n')
 st.write('\n')
 st.write('\n')
 st.subheader("Education 🎓")
