@@ -166,7 +166,7 @@ for project, link in PROJECTS.items():
 CERTIFICATIONS = {
     "**Machine Learning Specialization** - DeepLearning.AI": "assets/Machine Learning Specialization.pdf",
     "**Deep Learning Specialization** - DeepLearning.AI": "assets/Deep Learing Specialization.pdf",
-    "**Python for Data Science and Machine Learning Bootcamp** - Udemy": "assets/Muhammad_Rizwan_Aslam_Resume.pdf",
+    "**Python for Data Science and Machine Learning Bootcamp** - Udemy": "assets/Udemy Certificate.pdf",
 }
 
 def get_binary_file_downloader_html(bin_file, file_label='File'):
