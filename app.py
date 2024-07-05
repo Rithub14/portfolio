@@ -94,8 +94,8 @@ st.subheader("Skills 👩‍💻")
 st.write("---")
 
 skills = {
-    "Programming Languages": "Python 🐍, SQL 🗃️",
-    "Libraries/Frameworks": "Numpy 🧮, Pandas 🐼, Matplotlib 📊, Scikit-learn 🤖, OpenCV 🖼️, PyTorch 🔥, LangChain 🔗, HuggingFace 🤗, Streamlit 🌐",
+    "Programming Languages": "Python 🐍, SQL 🗃️, Java ♨️",
+    "Libraries/Frameworks": "Numpy 🧮, Pandas 🐼, Matplotlib 📊, Scikit-learn 🤖, OpenCV 🖼️, PyTorch 🔥, LangChain 🔗, HuggingFace 🤗, Streamlit 🌐, Spring Boot 🌱",
     "Tools": "Git 🛠️, Docker 🐳, VS Code 📝, Jupyter Notebook 📒, Google Colab 📚",
     "Cloud Platform": "AWS (SageMaker, Bedrock) ☁️",
     "Soft Skills": "Time management 🕰️, Problem-solving 📈, Critical thinking 🧠, Collaboration 🤝"
